@@ -180,7 +180,7 @@
       box-shadow: var(--shadow), 0 0 40px rgba(37, 99, 235, 0.08);
       padding: 48px;
       position: relative;
-      overflow: hidden;
+      overflow: hidden;x
     }
 
     .hero-badges {
@@ -322,6 +322,28 @@
     /* KOTAK WADAH TIAP BAGIAN */
     .section-box {
       background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 36px;
+      margin-top: 32px;
+      backdrop-filter: blur(16px);
+      box-shadow: var(--shadow);
+      position: relative;
+    }
+
+    .section-box-1 {
+      background-color: rgba(11, 19, 36, 0.95);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 36px;
+      margin-top: 32px;
+      backdrop-filter: blur(16px);
+      box-shadow: var(--shadow);
+      position: relative;
+    }
+
+    .section-box-2 {
+      background-color: rgba(11, 19, 36, 0.95);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       padding: 36px;
@@ -738,7 +760,7 @@
 
     <div id="fitur-utama">
       
-      <section class="section-box scroll-pop" id="fasilitas">
+      <section class="section-box-1 scroll-pop" id="fasilitas">
         <h3>Fasilitas Lengkap Unit Kos</h3>
         <p class="section-subtitle">Seluruh fasilitas pendukung bangunan yang siap Anda gunakan langsung.</p>
        
@@ -760,7 +782,7 @@
         </div>
       </section>
 
-      <section class="section-box scroll-pop" id="lokasi">
+      <section class="section-box-2 scroll-pop" id="lokasi">
         <h3>Akses & Jarak Terdekat</h3>
         <p class="section-subtitle">Kemudahan mobilitas premium menuju berbagai titik penting aktivitas harian Anda.</p>
        
